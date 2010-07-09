@@ -1,3 +1,14 @@
-= Radiant Less
+= Radiant Styles‘n’Scripts Less
 
-Enables the usage of Less with Radiant, for more useful, compiled stylesheets!
+As an extension to CSS, LESS is not only backwards compatible with CSS, but the extra features it adds use existing CSS syntax. This makes learning LESS a breeze, and if in doubt, lets you fall back to CSS.
+
+== Install
+
+gem install less
+script/extension install sns_less_filter
+
+== Dependencies
+
+ * Styles‘n’Scripts extension (v0.5 or higher)
+ * Less gem
+
